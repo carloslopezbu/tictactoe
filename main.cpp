@@ -1,6 +1,6 @@
 #include <iostream>
-#include "mcts/mcts.hpp"
-#include "policy/policy.hpp"
+
+
 #include <torch/torch.h>
 #include <iostream>
 
