@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libmcts.a CMakeFiles/mcts.dir/mcts.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib libmcts.a
