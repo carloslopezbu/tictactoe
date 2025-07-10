@@ -9,7 +9,7 @@ int main() {
     // Usa CUDA si está disponible, si no, CPU
     torch::Device device(torch::cuda::is_available() ? torch::kCUDA : torch::kCPU);
 
-    std::cout << "Usando dispositivo: " << (device.is_cuda() ? "CUDA" : "CPU") << std::endl;
+    std::cout << "Usando dispositivo: " << (false ? "CUDA" : "CPU") << std::endl;
 
     // Crear un tensor en ese dispositivo
     torch::Tensor tensor = torch::rand({3, 3}, device);
